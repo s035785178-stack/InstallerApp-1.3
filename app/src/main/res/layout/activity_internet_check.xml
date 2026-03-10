@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layoutDirection="rtl"
+    android:background="#F4F4F4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:text="בדיקת אינטרנט"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<TextView
+    android:id="@+id/resultIcon"
+    android:text="?"
+    android:textSize="80sp"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<TextView
+    android:id="@+id/resultText"
+    android:text="בודק חיבור..."
+    android:textSize="22sp"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="30dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/stereo_logo"/>
+
+<Button
+    android:id="@+id/backButton"
+    android:text="חזרה לדף הראשי"
+    android:textColor="#FFFFFF"
+    android:background="#842F1B"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_marginTop="20dp"/>
+
+</LinearLayout>
