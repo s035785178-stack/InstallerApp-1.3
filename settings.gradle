@@ -1,0 +1,2 @@
+rootProject.name = "InstallerNew"
+include ':app'
